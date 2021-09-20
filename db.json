@@ -1,0 +1,78 @@
+{
+  "conjointsetup": [
+    { "title": "version", "display": false, "data_value": "version" },
+    { "title": "task", "display": false, "data_value": "task" },
+    {
+      "title": "concept",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "concept",
+      "ui_type": "main-image",
+      "data_value": "concept"
+    },
+    {
+      "title": "Size",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "size",
+      "ui_type": "attr-text",
+      "header": true,
+      "data_value": "size"
+    },
+    {
+      "title": "Price",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "price",
+      "ui_type": "attr-text",
+      "header": true,
+      "data_value": "price"
+    },
+    {
+      "title": "Benifits",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "claim",
+      "ui_type": "attr-text",
+      "header": true,
+      "data_value": "claim1"
+    },
+    {
+      "title": "",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "claim",
+      "ui_type": "attr-text",
+      "header": false,
+      "data_value": "claim2"
+    },
+    {
+      "title": "Offer",
+      "display": true,
+      "lookup": "levels_decoder",
+      "value": "attr2",
+      "ui_type": "attr-text",
+      "header": true,
+      "data_value": "offer"
+    }
+  ],
+
+  "levels_decoder": [
+    {
+      "concept": "URL1",
+      "size": "3.1 oz",
+      "price": "$1.19",
+      "claim": "Contains up to 10g protein",
+      "offer": "10% off",
+      "attr2": "10% Off"
+    },
+    {
+      "concept": "URL2",
+      "size": "4 oz",
+      "price": "$1.83",
+      "claim": "High Fibre",
+      "offer": "10% off",
+      "attr2": "50% Off"
+    }
+  ]
+}
